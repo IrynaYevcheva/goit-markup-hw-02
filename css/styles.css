@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #fff;
   color: #434455;
 }
@@ -12,14 +12,13 @@ a {
 }
 
 /* Header */
-
 .header-logo {
   color: #2e2f42;
-  font-family: Raleway;
+  font-family: 'Raleway';
   font-size: 18px;
   font-weight: 700;
   line-height: 21px;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .header-logo .addition {
@@ -27,9 +26,8 @@ a {
 }
 .header-link {
   color: #2e2f42;
-  font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .header-link:hover,
@@ -39,9 +37,7 @@ a {
 }
 .contacts-link {
   color: #434455;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .contacts-link:hover,
@@ -49,8 +45,9 @@ a {
   color: #404bbf;
 }
 
-/* Section 1 hero image */
+/* Main content */
 
+/* Section 1 hero image */
 .hero-image {
   background-color: #2e2f42;
 }
@@ -58,7 +55,96 @@ a {
   color: #ffffff;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 1.12px;
   text-align: center;
+}
+.hero-image-button {
+  color: #fff;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+.hero-image-button:hover,
+.hero-image-button:focus {
+  color: #fff;
+  background-color: #404bbf;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+/* Section 2 Strategy  */
+.qualities {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.qualities-description {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* Section 3 Our Team */
+.our-team-container {
+  background-color: #f4f4fd;
+}
+.section-title {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.personnel-list .names {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.personnel-list .job-title {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* Section 4 Our Portfolio  */
+.projects-list .projects-names {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.projects-list .projects-tipes {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* Footer */
+footer {
+  background-color: #2e2f42;
+}
+.footer-logo {
+  color: #f4f4fd;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700font-size: 18px;;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-logo .addition {
+  color: #4d5ae5;
+}
+.footer-text {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
